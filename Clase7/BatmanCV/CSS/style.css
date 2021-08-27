@@ -1,0 +1,35 @@
+header {
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+footer {
+    background-color: #005677;
+    color: #ffffff;
+    position: bottom;
+    font-size: 20px;
+    height: 37px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    }
+
+h1, h3 {
+    background-color:#C4C4C4;
+    color: #005677;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+h1{
+    /* width: 1440px; */
+    height: 60px;
+    text-align: center;
+    font-size: 35px;
+}
+
+h3{
+    /* width: 1440px; */
+    height: 30px;
+    font-size: 20px;
+}

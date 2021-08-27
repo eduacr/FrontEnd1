@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Tienda</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h2>20% de descuento en todos los productos!</h2>
+        <h1>
+            <img src="img/logo.png" alt="logotipo">
+            <p>Nombre Tienda</p>
+        </h1>
+        <h3>
+            <ul type="none">
+                <li class="contacto uno">Contacto</li>
+                <li class="contacto dos">Registrame</li>
+                <li class="contacto tres">ingresar</li>
+            </ul>
+        </h3>
+    </header>
+    <main>
+    <section class="cajaPrincipal">
+        <article class="caja uno">
+            <h4>Añadí tu super!</h4>
+            <p class="agrega">Agregá tu personaje favorito completando las opciones.</p>
+        </article>
+        <article class="caja dos">
+            <div class="name">
+            <label class="edicion" for="nombre">*Nombre</label><br>
+            <input class="form1" type="text" name="nombre" id="nombre" placeholder="Escriba su nombre">
+        </div>
+        <div class="especieForm">
+            <action action="/especie" method="GET">
+                <label class="edicion" for="">*Especie</label><br>
+                <select class="form1" name="especie" id="">
+                    <option value="#ff0000">Alienígena</option>
+                    <option value="#ff0000">Humano</option>
+                    <option value="#ff0000">Animal</option>
+                </select>
+            </action>
+        </div>
+        </article>
+        <article class="caja tres">
+            <div class="fecha">
+            <label class="edicion" for="">Fecha</label><br>
+            <input class="form1" type="date" name="fecha" value="2021-08-05" min="2020-01-01" max="2023-01-01">
+        </div>
+        <div class="foto">
+            <label  class="edicion" for="">Agregar foto</label>
+            <input  class="form1" type="file" name="foto" id="" accept=".jpg" multiple placeholder="">
+        </div>
+        </article>
+
+        <article class="caja cuatro">
+            <div class="cuatrobis">
+                <form action="/descripcion" method="POST">
+                <label for="descripcion">Descripción</label><br>
+                <textarea name="descripcion" id="descripcion" cols="30" rows="15" placeholder="Descripción"></textarea>
+                </form>
+            </div>
+            <div class="cuatrotris">
+                <ul type=none class="powers">
+                    <label for=""><b>Poderes</b></label>
+                    <li class="lista" ><input class="chek"  type="checkbox" name="poderes" value="volar">volar</li>
+                    <li  class="lista"><input class="chek" type="checkbox" name="poderes" value=" superinteligencia">superinteligencia</li>
+                    <li class="lista"> <input class="chek" type="checkbox" name="poderes" value=" vista de rayo laser">vista de rayo laser</li>
+                    <li class="lista"><input class="chek"  type="checkbox" name="poderes" value=" billetera gorda">billetera gorda</li>
+                </ul>
+                <hr >
+                <ul type=none class="heroe">
+                    <label for="">tipo de personaje</label>
+                    <li class="lista"><input class=puntito type="radio" name="personaje" value="heroe/heroina">héroe/heroína</li>
+                    <li class="lista"><input class=puntito type="radio" name="personaje" value="villano/villana">villano/villana</li>
+                
+                </ul>
+            </div>
+
+        </article>
+        <article class="caja cinco">
+            <p class="anadir">Anadir</p>
+        </article>
+    </section>
+    </main>
+    <footer>
+        Todos los derechos reservados a FRONT END 1
+    </footer>
+</body>
+</html>

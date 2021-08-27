@@ -1,0 +1,43 @@
+header {
+    text-align: center;
+    vertical-align: middle;
+}
+
+header img {
+    width: 10% ;
+    border-radius: 30px;
+}
+
+footer {
+    background-color: #005677;
+    color: #ffffff;
+    position: bottom;
+    font-size: 20px;
+    height: 37px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    }
+
+h1, h3 {
+    background-color:#005677;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+span {
+    font-weight: bold;
+    font-size: 20px;
+}
+h1{
+    /* width: 1440px; */
+    height: 60px;
+    text-align: center;
+    font-size: 35px;
+}
+
+h3{
+    /* width: 1440px; */
+    height: 30px;
+    font-size: 20px;
+}
